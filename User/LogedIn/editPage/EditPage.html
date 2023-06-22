@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User-edit</title>
+    <link href="EditPage.css" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/circular-std" rel="stylesheet" />
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="edit">
+      <nav class="edit__nav">
+        <h2 class="edit__nav__header">Edit page</h2>
+        <div class="edit__nav__rightItems">
+          <button class="edit__nav__cancel-btn">Cancel</button>
+          <button class="edit__nav__save-btn">Save</button>
+        </div>
+      </nav>
+      <div class="edit__prof">
+        <h3 class="edit__prof__header">Profile photo</h3>
+        <div class="edit__prof__contain-img">
+          <img class="edit__prof__user-img" src="/images/user.svg" />
+          <img class="edit__prof__cam-img" src="/images/camera.svg" />
+        </div>
+      </div>
+      <hr>
+      <div class="edit__name">
+        <h3 class="edit__name__header">Full name</h3>
+        <input
+          class="edit__name__input"
+          type="text"
+          placeholder="First and Last Name"
+        />
+      </div>
+      <hr>
+      <div class="edit__skill">
+        <h3 class="edit__skill__header">What are you creating?</h3>
+        <input
+          class="edit__skill__input"
+          type="text"
+          placeholder="Creating piano music, building Coronarelief.org, posting..."
+        />
+      </div>
+      <hr>
+      <div class="edit__about">
+        <h3 class="edit__about__header">About me</h3>
+        <textarea
+          class="edit__about__txtarea"
+          placeholder="Say something nice... (optional)"
+        ></textarea>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Circular Std", sans-serif;
+  font-style: normal;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #212121;
+  padding-top: 20px;
+}
+.pay {
+  display: flex;
+  padding: 48px 24px;
+  border-radius: 24px;
+  background: #ffffff;
+  width: 445px;
+  height: 316px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.pay__btn {
+  border-radius: 57px;
+  background: #ffdd00;
+  padding: 12px 16px;
+  align-self: stretch;
+  border: none;
+  font-size: 16px;
+  font-family: "Avenir";
+  font-weight: 900;
+  color: #212121;
+}
+.pay__email {
+  padding: 12px 18px;
+  border-radius: 4px;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  background: rgba(34, 34, 34, 0.05);
+  align-self: stretch;
+  font-size: 16px;
+  font-weight: 450;
+  color: #222222;
+  margin: 24px 0;
+}
+.pay__email:focus {
+  outline: none;
+}
+.pay__email::placeholder {
+  color: #717171;
+}
+.user-img {
+  border-radius: 96px;
+  border: 2.824px solid #ffffff;
+  width: 96px;
+  height: 96px;
+  margin-bottom: -5.5vw;
+  z-index: 1;
+}
+.pay__close-container {
+  align-self: flex-end;
+  /* margin-top: -40px; */
+  margin-bottom: 50px;
+}
+.pay__header {
+  font-size: 24px;
+  font-weight: 300;
+  color: #222222;
+  line-height: 45px;
+}
+.pay__header span {
+  font-size: 24px;
+  font-weight: 700;
+  color: #222222;
+}
+.pay__charge {
+  font-size: 14px;
+  font-weight: 300;
+  color: #717171;
+}
+.pay__charge span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #717171;
+}

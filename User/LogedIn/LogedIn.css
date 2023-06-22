@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Circular Std", sans-serif;
+  font-style: normal;
+}
+body {
+  padding: 17px 0;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  width: 100%;
+  padding: 0 48px;
+  justify-content: space-between;
+}
+.nav__cupIcon {
+  width: 24.5px;
+  height: 35px;
+  margin: 5px;
+}
+.nav__rightItems {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  /* justify-content: center; */
+}
+.nav__menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 4px 5px 11px;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  border-radius: 50px;
+  background: #f9f9f9;
+}
+
+.nav__logOut {
+  background: #ffffff;
+  border: none;
+  padding-top: 3.5px;
+}
+.nav__edit {
+  padding: 9px 20px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  border-radius: 40px;
+  font-weight: 900;
+  font-size: 14px;
+  font-family: "Avenir";
+  color: #222222;
+}
+.nav__user {
+  width: 30px;
+  height: 30px;
+  border-radius: 23.438px;}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-top: 32px;
+}
+.user__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 200px;
+}
+
+.user__job {
+  line-height: 15px;
+  font-weight: 300;
+  font-size: 20px;
+  color: #000000;
+}
+
+.user__name {
+  font-weight: 700;
+  font-size: 30px;
+  color: #222222;
+}
+.about-user__bio {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 24px;
+  color: #222222;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+  text-align: left;
+  width: 552px;
+  word-wrap: break-word;
+}
+.about-user__buy {
+  background: #ffffff;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  border-radius: 8px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.about-user__buy__header {
+  font-weight: 450;
+  font-size: 24px;
+  color: #222222;
+}
+.about-user__buy__name {
+  color: #717171;
+}
+.about-user__buy__range__amount {
+  background: #ffffff;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #717171;
+}
+.about-user__buy__range {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 28px 22px;
+  background: rgba(255, 221, 0, 0.05);
+  border: 1px solid rgba(255, 221, 0, 0.25);
+  border-radius: 4px;
+  margin: 15px 0;
+}
+.about-user__buy__range__amounts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.about-user__buy__range__input {
+  background: #ffffff;
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(34, 34, 34, 0.1);
+  border-radius: 4px;
+  padding: 11px;
+}
+.about-user__buy__opt-name,
+.about-user__buy__opt-quote {
+  background: rgba(34, 34, 34, 0.05);
+  border: 1px solid rgba(34, 34, 34, 0.05);
+  border-radius: 4px;
+  width: 100%;
+  height: 48px;
+  padding: 10px;
+  color: #222222;
+  font-weight: 450;
+  font-size: 16px;
+}
+.about-user__buy__opt-quote {
+  height: 100px;
+  margin-top: 15px;
+  resize: none;
+}
+.about-user__buy__btn {
+  padding: 12px 16px;
+  width: 340px;
+  height: 48px;
+  background: #ffdd00;
+  opacity: 0.25;
+  border-radius: 57px;
+  border: none;
+  font-family: "Avenir";
+  font-weight: 900;
+  font-size: 16px;
+  color: #212121;
+  margin-top: 25px;
+}
+.about-user {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 32px;
+  margin-top: 35px;
+}
+.about-user__buy__opt-name::placeholder,
+.about-user__buy__opt-quote::placeholder {
+  font-weight: 450;
+  font-size: 16px;
+  color: rgba(34, 34, 34, 0.5);
+}
+.about-user__buy__opt-name:focus,
+.about-user__buy__opt-quote:focus {
+  outline: none;
+}
+.about-user__buy__range__amount:focus {
+  color: #222222;
+  background-color: #ffdd00;
+}
